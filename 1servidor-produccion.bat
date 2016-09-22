@@ -1,0 +1,3 @@
+@echo off
+echo Se lanzar  servidor de Producci¢n...
+grunt servphp-prod

@@ -1,0 +1,45 @@
+html {
+	margin-top: -40px;
+}
+
+#logomarco {
+
+	background-image: url("../img/restaurant_icons.png");
+	border-radius: 7px;
+}
+
+#logotipo {
+    width: 90%;
+	max-width: 650px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wordbreak { /* Se usa en los paneles que contienen direcciones para que estas no se salgan */
+	word-break: break-all;
+}
+
+.gruntlogo {
+ 	padding-bottom: 60px;
+}
+
+.gruntlogo div {
+	background-image: url("../img/restaurant_icons.png");
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.gruntlogo img {
+	max-width: 230px;
+
+}
+
+#ayuda {
+	padding-top: 0;
+}
+
+#marcoayuda h3{
+	margin-bottom: 20px;
+	margin-top: 0;
+}

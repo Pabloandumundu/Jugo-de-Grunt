@@ -1,0 +1,12 @@
+Los archivos bat que están en esta carpeta contienen acentos y caracteres especiales por eso para poder incluir ambos y que después el bat sea ejecutable (los que están en esta carpeta no los son tal cual están codificados) hay que seguir los siguientes pasos:
+
+Editarlo en algún editor tipo sublime text o tambien el mismo bloc de notas de windows siempre que se guarde como unicode en este ultimo caso. 
+
+Después hay que ejecutar en la consola:
+
+type archivoencuetion(editar_unicode).bat > archivoencuestion.bat
+
+Y ya el archivoencuetion.bat será ejecutable.
+
+
+Nota: el init(editar_unicode).bat solo es para una versión distribuible en rar de JdG, se queda alojado aqui por comodidad
