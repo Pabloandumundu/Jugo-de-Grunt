@@ -19,8 +19,8 @@ A nivel de interface quedan pues los propios archivos bat o también un menú en
 
 En el menú web se podrán ir viendo ya algunos de los parámetros si ya se han configurado y tiene el siguiente formato:
 
-*imagen
-![alt tag](https://raw.githubusercontent.com/Pabloandumundu/Jugo-de-Grunt/screencapture-127-0-0-1-8000-1474569279721.png)
+
+![menú Jugo de Grunt](screencapture-127-0-0-1-8000-1474569279721.png?raw=true "Menú")
 
 
 ## Motivación ##
