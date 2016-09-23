@@ -362,7 +362,7 @@
                         </div>
                         <div class="panel-body">
                             <h4>Git Clone</h4>
-                            <p>Realiza la clonación del repositorio en Desarrollo, el directorio 'de' deberá estar vació</p>
+                            <p>Realiza la clonación del repositorio en Desarrollo, el directorio 'de' deberá estar vacío</p>
                             <input type="submit" name="gitclone" class="btn btn-primary" value="Clonar Git">
                         </div>
                     </div>
