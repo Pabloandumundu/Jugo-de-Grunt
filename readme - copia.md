@@ -43,7 +43,7 @@ Ahora ya se podría empezar a utilizar algunas de las características de JdG, p
 
 Sin embargo si se quiere hacer uso del menú frontal de lanzamiento de los diferentes servicios, desarrollado en formato página web, se requiere tener instalado algún tipo de servidor php, igualmente si se quiere lanzar servidores para desarrollo o producción a través del entorno requiere tener instalado un programa servidor php.
 
-Dos de los programas servidores más utilizados y que se pueden usar para ello indistintamente son
+Dos de los programas servidores más utilizados y que se pueden usar indistintamente para ello son
 
 Xampp → [https://www.apachefriends.org/es/index.html](https://www.apachefriends.org/es/index.html)
 
@@ -71,15 +71,16 @@ Y eso es todo ya están todas las características de JdG disponibles.
 
 22/09/2016
 
-- Se han mejorado la subida de ftp simplemente eligiendo otro plugín (ftp-diff-deployer) que funciona muchísimo mejor que el utilizado inicialmente (grunt-ftpush) es mucho más fino y no es exigente con los nombres de los archivos.
+1. Se han mejorado la subida de ftp simplemente eligiendo otro plugín (ftp-diff-deployer) que funciona muchísimo mejor que el utilizado inicialmente (grunt-ftpush) es mucho más fino y no es exigente con los nombres de los archivos.
 2. Se ha simplificado la visualización del proceso de backup, antes daba una serie de mensajes recurrentes con unos archivos que siempre cambiaban, ahora solo se verán cambios reales realizados en el proyecto (si bien internamente se siguen copiando esos archivos)
 3. Se han añadido las funcionalidades de crear sitemap y chequear enlaces pues parecían dos opciones que podían venir muy bien.
 4. Solo hay un botón para subir FTP (y un solo archivo bat por lo tanto); la selección de si se sube Producción o Desarrollo se realiza ahora mediante la opción de configurar FTP, lo que ahorra un poco de espacio y mejora la seguridad evitando que nos confundamos. También se ha ahorrado otro espacio al poner el botón de reset aparte en un botón abajo.
 
 16/09/2016
 
-- Primera versión completa.
+1. Primera versión completa.
 
 06/09/2016
 
-- Inicio del proyecto.
+1. Inicio del proyecto.
+
