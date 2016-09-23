@@ -25,7 +25,7 @@ En el menú web se podrán ir viendo ya algunos de los parámetros si ya se han 
 
 ## Motivación ##
 
-Este Proyecto es un trabajo del último modulo de un curso de confección y publicación de paginas web que estoy realizando, y esa ha sido la motivación ejecutiva, por así decirlo, pero la razón de porque “esto” ha sido una razón practica para mi, y es que me venia muy bien un sistema como este tanto para una web que ya llevo un tiempo desarrollando y que se esta haciendo bastante voluminosa como para futuros proyectos.
+Este Proyecto es un trabajo del último modulo de un curso de confección y publicación de paginas web que estoy realizando, y esa ha sido la motivación ejecutiva, por así decirlo, pero la razón de porque “esto” ha sido una razón práctica para mi, y es que me venia muy bien un sistema como este tanto para una web que ya llevo un tiempo desarrollando y que se esta haciendo bastante voluminosa como para futuros proyectos.
 
 ## Instalación ##
 
