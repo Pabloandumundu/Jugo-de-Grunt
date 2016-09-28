@@ -37,7 +37,7 @@ pause
 goto END
 
 :AVISOCONFIG
-echo Todavia no se ha seleccionado ningun repositorio desde el que clonar.
+echo Todav¡a no se ha seleccionado ningun repositorio desde el que clonar.
 
 set /p DESEACONFIGURAR=¨Quieres configurar el repositorio (S/[N])?
 if /i "%DESEACONFIGURAR%" NEQ "S" goto END

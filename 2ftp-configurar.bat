@@ -20,7 +20,12 @@ if "%temp_ftpServidor%"=="" (
 		
 		) 
 
-) 
+) else (
+
+del .grunt\grunt-ftp-diff-deployer\*.* /F /Q
+
+)
+
 
 :PREGUNTAS
 set /p temp_ftpPuerto=¨Puerto [%ftpPuerto%]? 
@@ -131,6 +136,7 @@ if "%temp_ftpDirectorioDestino%"=="" (
 
 ) else (
 
+	del .grunt\grunt-ftp-diff-deployer\*.* /F /Q
 	echo %temp_ftpDirectorioDestino%>_jugodegrunt/ftpDirectorioDestino.txt
 	echo {"ftpDirectorioDestino":"%temp_ftpDirectorioDestino%"}>_jugodegrunt/ftpDirectorioDestino.json
 

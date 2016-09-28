@@ -62,7 +62,7 @@ echo {"gitRepoRama":"(ninguna)"}>_jugodegrunt\gitRepoRama.json
 set /p gitRepo=<_jugodegrunt\gitRepo.txt
 set gitRepo=%gitRepo:~8%
 
-set /p nuevouser=Si necesitaras subir al repositorio tendras que entrar como un usuario con permiso de escritura en el, ¨accederas como %gitUUser%? si quieres cambiar escribe el nombre sino deja en blanco: 
+set /p nuevouser=Si necesitaras subir al repositorio tendras que entrar como un usuario con permiso de escritura en ‚l, ¨accederas como %gitUUser%? si quieres cambiar escribe el nombre sino deja en blanco: 
 
 if "%nuevouser%"=="" (
 

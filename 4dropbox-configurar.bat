@@ -31,7 +31,7 @@ if "%temp_dropboxToken%"=="" (
 )
 
 :PREGUNTADIREC
-echo Seleccione de que directorio quiere hacer backup:
+echo Seleccione de qu‚ directorio quiere hacer backup:
 echo 1 - Desarrollo (de)
 echo 2 - Producci¢n (pr)
 
@@ -54,7 +54,7 @@ if %directorio%==1 (
 
 )
 
-set /p temp_dropboxDirDest=¨Directorio de destino en Dropbox [%dropboxDirDest%]? 
+set /p temp_dropboxDirDest=¨Directorio de destino en Dropbox [%dropboxDirDest%]?
 
 if "%temp_dropboxDirDest%"=="" (
 

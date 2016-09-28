@@ -69,6 +69,12 @@ Y eso es todo ya están todas las características de JdG disponibles.
 
 ## Mejoras Realizadas ##
 
+28/09/2016
+
+- Se pueden usar barras de msdos normales a la hora de definir la ruta del backup (antes por exigencias del formato json no podían utilizarse) y avisa si los caracteres introducidos no sirven (acentos y eñes).
+2. Varias correcciones en el manual pdf y el sistema de ayuda.
+
+
 22/09/2016
 
 - Se han mejorado la subida de ftp simplemente eligiendo otro plugín (ftp-diff-deployer) que funciona muchísimo mejor que el utilizado inicialmente (grunt-ftpush) es mucho más fino y no es exigente con los nombres de los archivos.
@@ -80,6 +86,3 @@ Y eso es todo ya están todas las características de JdG disponibles.
 
 - Primera versión completa.
 
-06/09/2016
-
-- Inicio del proyecto.

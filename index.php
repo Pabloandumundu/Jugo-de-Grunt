@@ -461,7 +461,7 @@
                 </div>
                 
                 <div class="col-md-12 col-sm-12 text-right">
-					<a href="#" data-toggle="tooltip" data-placement="left" title="Se borraran las direcciones, usuarios y contraseñas utilizadas"><input type="submit" class="btn btn-default btn-lg" name="resetear" value="Reinicia Valores" ></a>
+					<a href="#" data-toggle="tooltip" data-placement="left" title="Se borrarán las direcciones, usuarios y contraseñas utilizadas"><input type="submit" class="btn btn-default btn-lg" name="resetear" value="Reinicia Valores" ></a>
 				</div>
             </form>
         </div>
@@ -512,12 +512,12 @@
                     <div id="servidorproduccion" class="well hidden txtayuda">
                         <h3>Servidor Producción</h3>
                         <p>Este servicio arrancará un servidor php con el contenido que haya en la carpeta de Producción. Deberá haber algún fichero index (ya sea .html o .php) para que sea lanzado cuando arranque.</p>
-                        <p>Cuando se ejecute esta acción se abrirá una ventana de comandos que ira mostrando los mensajes del servidor y que no se deberá cerrar hasta que queramos paralizar el servicio.</p>
+                        <p>Cuando se ejecute esta acción se abrirá una ventana de comandos que irá mostrando los mensajes del servidor y que no se deberá cerrar hasta que queramos paralizar el servicio.</p>
                     </div>
                     <div id="servidordesarrollo" class="well hidden txtayuda">
                         <h3>Servidor Desarrollo</h3>
                         <p>Este servicio arrancará un servidor php con el contenido que haya en la carpeta de Desarrollo. Deberá haber algún fichero index (ya sea .html o .php) para que sea lanzado cuando arranque.</p>
-                        <p>Cuando se ejecute esta acción se abrirá una ventana de comandos que ira mostrando los mensajes del servidor y que no se deberá cerrar hasta que queramos paralizar el servicio.</p>
+                        <p>Cuando se ejecute esta acción se abrirá una ventana de comandos que irá mostrando los mensajes del servidor y que no se deberá cerrar hasta que queramos paralizar el servicio.</p>
                     </div>
                     <div id="desaaprod" class="well hidden txtayuda">
                         <h3>Desarrollo &#8594; Producción</h3>
@@ -530,7 +530,7 @@
                         <p>Esta acción sirve para configurar el acceso a un servidor FTP al que vayamos luego a subir nuestros contenidos.</p>
                         <p>Durante el proceso de configuración se nos hará una serie de preguntas donde podemos o bien introducir los nuevos datos o bien pulsar enter con lo que se mantendrá la última configuración conocida para cada caso.</p>
                         <p>Se nos preguntará en el siguiente orden; dirección del servidor, puerto (muy habitualmente 21), usuario de acceso, password de dicho usuario, directorio de destino (que puede ser ‘public_html’, simplemente ‘/’ o algún otro dependiendo del servidor; hay que conocer donde nos sitúa el FTP por defecto y donde está en relación con la dirección http del hosting web). por último, además, se nos preguntará si lo que queremos subir es el contenido de Desarrollo o de Producción.</p>
-                        <p>En el menú gráfico se puede ver encima del botón cual es el sitio, puerto y el directorio al que se subirá y que es lo que se subirá.</p>
+                        <p>En el menú gráfico se puede ver encima del botón cuál es el sitio, puerto y el directorio al que se subirá y que es lo que se subirá.</p>
                     </div>
                     <div id="subirftp" class="well hidden txtayuda">
                         <h3>Subir FTP</h3>
@@ -541,7 +541,7 @@
                     <div id="generarsitemap" class="well hidden txtayuda">
                         <h3>Generar Sitemap</h3>
                         <p>Se creará un archivo sitemap.xml que contendrá referencias a todos los archivos que haya en el directorio de Desarrollo (ficheros html, imágenes, pdfs, y todo, absolutamente todo, lo demás) que se guardará en la raíz de ese mismo directorio.</p>
-                        <p>Se preguntará cual será la dirección web raíz a la que estarán asociados los archivos (“homepage”) de tal forma que aunque el rastreo se haga en la máquina local las direcciones que se incluirán en el archivo sitemap tendrán como inicio la dirección indicada.</p>
+                        <p>Se preguntará cuál será la dirección web raíz a la que estarán asociados los archivos (“homepage”) de tal forma que aunque el rastreo se haga en la máquina local las direcciones que se incluirán en el archivo sitemap tendrán como inicio la dirección indicada.</p>
                         <p>El archivo sitemap.xml es utilizado por los buscadores (una vez subido al directorio raíz de nuestra web) para agilizar y facilitar que se rastreen todos los archivos contenidos en nuestra web y de esa forma puedan salir en las búsquedas.</p>
                         <p>Una peculiaridad de este modo de crear el sitemap es que no lo hace siguiendo todos los posibles enlaces empezando por la pagina de inicio, sino que sin más añade todos los archivos que encuentra en el directorio. Esto implica que este método <u>no sirve para páginas dinámicas</u> donde el contenido se extrae de bases de datos, por otro lado tiene la propiedad de que añade paginas o contenido que no necesariamente esta enlazado desde nuestro sitio principal, lo cual puede resultar útil (o no) en algunas ocasiones.</p>
                         <p>A cada enlace añadido se le adjuntará automáticamente la fecha de modificación.</p>
@@ -593,11 +593,11 @@
                     <div id="configurardropbox" class="well hidden txtayuda">
                         <h3>Configurar Dropbox</h3>
                         <p>Con esta acción se configuraran los parámetros de acceso a un repositorio Dropbox al que podremos luego subir tanto el directorio de Producción como el de Desarrollo.</p>
-                        <p>Al ejecutarlo lo primero que se nos pedirá sera el Token de acceso de la aplicación, tienes las instrucciones de como conseguir uno abajo. Con el toquen ya le estamos dando la dirección donde tiene que subir junto con el permiso.</p>
+                        <p>Al ejecutarlo lo primero que se nos pedirá sera el Token de acceso de la aplicación, tienes las instrucciones de cómo conseguir uno abajo. Con el toquen ya le estamos dando la dirección donde tiene que subir junto con el permiso.</p>
                         <p>Después nos dirá que le señalemos si queremos subir el directorio de Producción ('pr') o de Desarrollo ('de').</p>
-                        <p>Se nos pregunta por último cual queremos que sea el directorio del destino (dentro del espacio al que se accede con el token mediante la aplicación o con la cuenta asociada como usuario).</p>
+                        <p>Se nos pregunta por último cuál queremos que sea el directorio del destino (dentro del espacio al que se accede con el token mediante la aplicación o con la cuenta asociada como usuario).</p>
                         <br>
-                        <p><em>Como conseguir un token de acceso</em>:</p>
+                        <p><em>Cómo conseguir un token de acceso</em>:</p>
                         <p>Si no tienes cuenta Dropbox crea una cuenta (no hace falta que ejecutar el programa que se empieza a bajar automáticamente, simplemente mira el correo con el que te registraste y te habrán enviado un correo para que chequees y confirmes, y ya tendrás la cuenta activada).</p>
                         <p>Después accede a <a href="https://www.dropbox.com/developers/apps" target="_blank">https://www.dropbox.com/developers/apps</a></p>
                         <p>Crea una aplicación, te saldrá una ventana, entre las opciones a elegir escoge "Dropbox Api", el tipo de aplicación: "App folder– Access to a single folder created specifically for your app.", y le pones el nombre que quieras.</p>
@@ -612,12 +612,11 @@
                     <div id="backup" class="well hidden txtayuda">
                         <h3>Backup</h3>
                         <p>Con esta acción se realizará una copia integral del proyecto (directorio de Desarrollo) más el entorno (Grunt+JdG) en un directorio que se podrá especificar justo después de iniciar la acción.</p>
-                        <p>Las copias serán de tipo espejo, en las que solo se copiarán los archivos que se hayan modificado o añadido desde la última vez que se hizo la copia en un directorio dado. Si además hay archivos en el destino que ya no se encuentran en origen estos serán eliminados.</p>
-                        <p>Atención: la dirección deberá llevar contrabarra “/” y no barra “\” para que el programa lo lea correctamente y no falle, en caso de equivocarse volver a ejecutar esta misma acción de “Backup” y corregir.</p>
+                        <p>Las copias serán de tipo espejo, en las que solo se copiarán los archivos que se hayan modificado o añadido desde la última vez que se hizo la copia en un directorio dado. Si además hay archivos en el destino que ya no se encuentran en origen estos serán eliminados.</p>                        
                     </div>
                     <div id="resetear" class="well hidden txtayuda">
                         <h3>Reinicia Valores</h3>
-                        <p>Mediante esta acción se borraran todos las direcciones, usuarios y contraseñas que se han guardado en esta instancia de "Jugo de Grunt"</p>
+                        <p>Mediante esta acción se borrarán todos las direcciones, usuarios y contraseñas que se han guardado en esta instancia de "Jugo de Grunt"</p>
                     </div>
 
                 </div>
